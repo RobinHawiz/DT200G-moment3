@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: rgba(255, 255, 255, 0.87);
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+
+/* Header */
+
+header {
+  width: 90rem;
+  min-height: 10vh;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.04);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+ul.navlinks li a {
+  text-decoration: none;
+  color: #bb86fc;
+}
+
+ul.navlinks li {
+  list-style: none;
+  margin: 0rem 2rem;
+  font-size: 2.2rem;
+}
+
+/* Styling Page Moment 3.2 */
+
+.content {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #121212ea;
+  position: relative;
+}
+
+main {
+  width: 90rem;
+  margin: 10rem auto;
+  /* Horizontally align all elements */
+  text-align: center;
+}
+
+section {
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+article {
+  margin-bottom: 5rem;
+}
+
+#moment3_2-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  text-align: start;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  line-height: 2.7rem;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+a {
+  color: #bb86fc;
+}
+
+ul.list {
+  text-align: start;
+  margin-left: 1rem;
+}
+
+li {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}

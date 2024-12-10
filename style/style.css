@@ -15,9 +15,44 @@ body {
   font-weight: 400;
 }
 
+/* Header */
+
+header {
+  width: 90rem;
+  min-height: 10vh;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+ul.navlinks li a {
+  text-decoration: none;
+  color: #bb86fc;
+}
+
+ul.navlinks li {
+  list-style: none;
+  margin: 0rem 2rem;
+  font-size: 2.2rem;
+}
+
+/* Styling Page Moment 3.1 */
+
 main {
   width: 90rem;
-  margin: 10rem auto auto auto;
+  margin: 10rem auto;
   /* Horizontally align all elements */
   text-align: center;
 }
@@ -34,7 +69,7 @@ article {
   margin-bottom: 5rem;
 }
 
-video {
+#moment3_1-video {
   border: solid rgba(255, 255, 255, 0.16);
   width: 84.5rem;
   object-fit: cover;
@@ -71,7 +106,7 @@ a {
   color: #bb86fc;
 }
 
-ul {
+ul.list {
   text-align: start;
   margin-left: 1rem;
 }

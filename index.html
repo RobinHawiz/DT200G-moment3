@@ -15,17 +15,25 @@
     <title>Moment 3 - Film för webb</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <ul class="navlinks">
+          <li><a href="index.html">Moment3.1</a></li>
+          <li><a href="moment3.2/moment3.2.html">Moment3.2</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <h1>Moment 3.1 - Filma och redigera</h1>
       <section>
         <h2>Video</h2>
-        <video width="854" height="480" controls>
+        <video id="moment3_1-video" width="854" height="480" controls>
           <source src="video/moment3.webm" type="video/webm;codecs="vp9, opus""
           />
           <source src="video/moment3.mp4" type="video/mp4" />
           <source src="video/moment3.ogv" type="video/ogg" />
           <!-- Audio only -->
-          <source src="video/momem3.ogg" type="video/ogg" />
+          <source src="video/moment3.ogg" type="video/ogg" />
           <track
             label="Svenska"
             kind="subtitles"
@@ -75,7 +83,7 @@
             Vad har du använt för utrustning? Vad har använts för att spela in
             film och ljud, och vilket eller vilka program har använts?
           </h3>
-          <ul>
+          <ul class="list">
             <li>
               Ljudinspelning:
               <a
