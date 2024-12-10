@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Moment 3 - Film för webb</title>
+  </head>
+  <body>
+    <main>
+      <h1>Moment 3.1 - Filma och redigera</h1>
+      <section>
+        <h2>Video</h2>
+        <video width="854" height="480" controls>
+          <source src="video/moment3.webm" type="video/webm;codecs="vp9, opus""
+          />
+          <source src="video/moment3.mp4" type="video/mp4" />
+          <source src="video/moment3.ogv" type="video/ogg" />
+          <!-- Audio only -->
+          <source src="video/momem3.ogg" type="video/ogg" />
+          <track
+            label="Svenska"
+            kind="subtitles"
+            srclang="sv"
+            src="video/undertext.vtt"
+            default
+          />
+          Din webbläsare stöder ej video-formatet.
+        </video>
+      </section>
+      <section>
+        <h2>Frågeställningar</h2>
+        <article>
+          <h3>
+            Vilka slutsatser har du dragit av att genomföra uppgiften? Vad har
+            gått bra/dåligt/kunnat göras annorlunda?
+          </h3>
+          <p>
+            Jag har lärt mig att olika "videoformat" (containers) använder sig
+            av olika codecs. Codecs komprimerar data och "kodar" (encoding)
+            videos i ett format som kan sedan "avkodas" (decoding) för att
+            spelas upp eller redigeras. Ljudet i videor använder sig också av
+            codecs.
+          </p>
+          <p>
+            <span>Sammanfattat:</span> Containers (filtyp) -> codecs (utför
+            kompression mha en algoritm)-> kompressionsformat (beskriver hur
+            datan är kodad eller komprimerad).
+          </p>
+          <p>
+            Alla webbläsare har inte samma stöd för alla codecs, vilket går att
+            se på webbplatsen <a href="https://caniuse.com">caniuse.com</a>.
+          </p>
+          <p>
+            Man kan använda sig av WebCodecs API för att specificera de codecs
+            som stöds av de givna videoformaten. Jag visar ett exempel i
+            source-taggen för WebM (i HTML-koden).
+          </p>
+          <p>
+            Något som man skulle kunna göra annorlunda är att antingen skriva
+            egen CSS eller hitta kod på nätet som gör att videospelaren ser
+            likadan ut, oavsett webbläsare.
+          </p>
+        </article>
+        <article>
+          <h3>
+            Vad har du använt för utrustning? Vad har använts för att spela in
+            film och ljud, och vilket eller vilka program har använts?
+          </h3>
+          <ul>
+            <li>
+              Ljudinspelning:
+              <a
+                href="https://www.logitechg.com/sv-se/products/streaming-gear/yeti-premium-usb-microphone.988-000229.html"
+                >Blue Yeti Microphone</a
+              >.
+            </li>
+            <li>
+              Videoinspelning:
+              <a href="https://support.apple.com/sv-se/111877"
+                >iPhone 12 mini</a
+              >
+              (första tre klippen i videon), Okänd mobiltelefon (sista klippet
+              spelades in av en vän för 6 år sedan, så vet inte riktigt vilken
+              typ av mobil som användes).
+            </li>
+            <li>
+              Programvaror:
+              <a
+                href="https://www.adobe.com/se/products/premiere/campaign/pricing.html"
+                >Adobe premier pro</a
+              >
+              (Skapa undertexter samt lägga ihop klippen.) och
+              <a href="https://clipchamp.com/en/windows-video-editor/"
+                >Microsoft Clipchamp</a
+              >
+              (alla klippen förutom den första spelades in vertikalt och har
+              redigerats för att visas horisontellt.)
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>
+            Är den färdiga filmen tillgänglig? Vad hade kunnat göras för att
+            göra den mer tillgänglig, om så inte är fallet?
+          </h3>
+          <p>
+            En sak jag märkte när jag läste denna fråga var att jag byter språk
+            i min undertext mot slutet av videon, från svenska till engelska (då
+            det språk som talas byts från svenska till engelska). Så för att
+            göra videon fullt tillgänglig till personer som inte kan engelska så
+            borde jag skriva om den delen som är skriven på engelska till
+            svenska.
+          </p>
+          <p>
+            En ytterliggare förbättring skulle vara att lägga till engelska
+            undertexter för att göra videon mer tillgänglig för personer som
+            inte är svensktalande.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
